@@ -51,7 +51,7 @@ After the program finish running, an output file "apartment_listings" will be cr
 - [x] Scarpe single page of the webside
 - [x] Scrape all possible pages of the search results. Save in the output file
 - [ ] Scrape each item for additional details and images
-- [ ] Run Analysis on the output file, to show relevant information
+- [ ] Add support for other file formats. (currently only works with .csv)
 
 See the [open issues](https://github.com/Leo-project-A/Apartment_hunting/issues) for a full list of proposed features (and known issues).
 
