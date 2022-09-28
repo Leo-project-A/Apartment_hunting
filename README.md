@@ -10,7 +10,7 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. edit the "config.json" file with the parameters of the search  
+1.1 edit the "config.json" file with the parameters of the search  
   using strings with format "<minimum_value>-<maximum_value>"  
   for Any value enter "-1"  
   Exemple:  
@@ -22,13 +22,13 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
     }
     ```  
 
-  using int format.
+1.2. using int format.
   to include the parameter in search = 1  
   to exclude the parameter in search = 0  
     Exemple:  
     ```json
     {
-      "parking": 0,
+      "parking": 0, 
       "elevator": 1
     }
     ``` 
