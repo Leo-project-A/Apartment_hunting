@@ -10,7 +10,7 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1.1 edit the "config.json" file with the parameters of the search  
+1. edit the "config.json" file with the parameters of the search  
   using strings with format "<minimum_value>-<maximum_value>"  
   for Any value enter "-1"  
   Exemple:  
@@ -22,7 +22,7 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
     }
     ```  
 
-1.2. using int format.
+2. using int format.
   to include the parameter in search = 1  
   to exclude the parameter in search = 0  
     Exemple:  
@@ -33,7 +33,7 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
     }
     ``` 
 
-2. Run in your terminal
+3. Run in your terminal
    ```sh
    python scrape.py
    ```
