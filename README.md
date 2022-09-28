@@ -15,9 +15,11 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
   for Any value enter "-1"  
   Exemple:  
     ```json
-    "rooms": "2--1",
-    "price": "-1-2600",
-    "floor": "-1--1",
+    {
+      "rooms": "2--1",
+      "price": "-1-2600",
+      "floor": "-1--1",
+    }
     ```  
 
   using int format.
@@ -25,8 +27,10 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
   to exclude the parameter in search = 0  
     Exemple:  
     ```json
-    "parking": 0,
-    "elevator": 1
+    {
+      "parking": 0,
+      "elevator": 1
+    }
     ``` 
 
 2. Run in your terminal
