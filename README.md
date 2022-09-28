@@ -23,11 +23,11 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
   using int format.
   to include the parameter in search = 1  
   to exclude the parameter in search = 0  
-  Exemple:  
+    Exemple:  
     ```json
     "parking": 0,
     "elevator": 1
-    ```
+    ``` 
 
 2. Run in your terminal
    ```sh
