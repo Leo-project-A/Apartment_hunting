@@ -4,27 +4,26 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Using the [yad2 website](https://www.yad2.co.il/), scrape and collect information about apartments in your area.
+Using the [yad2 website](https://www.yad2.co.il/), scrape and collect information about apartments in your area.  
 *currently => Haifa, Israel
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. edit the "config.json" file with the parameters of the search
-  using strings with format "<minimum_value>-<maximum_value>"
-  for Any value enter "-1"
-  Exemple:
+1. edit the "config.json" file with the parameters of the search  
+  using strings with format "<minimum_value>-<maximum_value>"  
+  for Any value enter "-1"  
+  Exemple:  
     ```json
     "rooms": "2--1",
     "price": "-1-2600",
     "floor": "-1--1",
-    ```
+    ```  
+
   using int format.
-  to include the parameter in search = 1
-  to exclude the parameter in search = 0
-  Exemple:
+  to include the parameter in search = 1  
+  to exclude the parameter in search = 0  
+  Exemple:  
     ```json
     "parking": 0,
     "elevator": 1
