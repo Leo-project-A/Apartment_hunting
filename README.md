@@ -21,7 +21,6 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
       "floor": "-1--1",
     }
     ```  
-
 2. using int format.
   to include the parameter in search = 1  
   to exclude the parameter in search = 0  
@@ -32,8 +31,11 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
       "elevator": 1
     }
     ``` 
-
-3. Run in your terminal
+3. Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run in your terminal
    ```sh
    python scrape.py
    ```
