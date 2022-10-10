@@ -44,6 +44,7 @@ Using the [yad2 website](https://www.yad2.co.il/), scrape and collect informatio
 ## Usage
 
 After the program finish running, an output file "apartment_listings" will be created with all the apartments found.
+![image](https://user-images.githubusercontent.com/74867910/194933280-2a21576d-941a-4936-87d8-b1d813a86465.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
