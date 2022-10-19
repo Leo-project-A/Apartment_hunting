@@ -6,7 +6,7 @@ import json
 import import_module
 
 CONFIG_FILE = "config.json"
-SLEEP_TIME = 5
+SLEEP_TIME = 3
 
 PAGE_NUMBER_SELECTOR = 'button.page-num'
 NO_PRICE_LABEL = "לא צוין מחיר"
