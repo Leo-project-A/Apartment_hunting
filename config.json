@@ -11,20 +11,20 @@
     
     "arguments": {
 
-        "rooms": "2--1",
-        "price": "-1-2600",
+        "rooms": "-1--1",
+        "price": "-1--1",
         "floor": "-1--1",
-        "squaremeter": "30--1",
+        "squaremeter": "-1--1",
 
         "parking": 0,
         "elevator": 0,
-        "airConditioner": 1,
+        "airConditioner": 0,
         "balcony": 0,
         "shelter": 0,
         "bars": 0,
         "warhouse": 0,
         "accessibility": 0,
-        "renovated": 1,
+        "renovated": 0,
         "furniture": 0,
         "pets": 0,
         "forPartners": 0,
